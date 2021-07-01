@@ -22,7 +22,7 @@ const useEpisodes = (chapterUrls) => {
       .finally(() => {
         setIsLoading(false);
       });
-  }, [])
+  }, [chapterUrls])
 
   return {
     isLoading,

@@ -25,7 +25,7 @@ const useLocation = (url) => {
       .finally(() => {
         setIsLoading(false);
       });
-  }, [])
+  }, [url])
 
   return {
     isLoading,
