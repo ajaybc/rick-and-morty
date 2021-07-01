@@ -13,7 +13,7 @@ export default function App() {
     <Router>
       <div>
         <Topbar />
-        <Container maxWidth="lg">
+        <Container maxWidth="lg" style={{paddingTop: '20px'}}>
           <Switch>
             <Route path="/">
               <Home />

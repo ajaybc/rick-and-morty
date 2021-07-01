@@ -1,37 +1,38 @@
 import { useEffect, useState } from 'react';
-import { API_URL } from '../constants';
 
-const useCharacterApi = (page) => {
+const useLocation = (url) => {
   const [isLoading, setIsLoading] = useState(true);
-  const [characters, setCharacters] = useState([]);
-  const [totalPages, setTotalPages] = useState();
+  const [locationData, setLocationData] = useState({});
   const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
+    if (!url) {
+      setHasError(true);
+      setIsLoading(false);
+      return;
+    }
     setIsLoading(true);
     setHasError(false);
-    fetch(`${API_URL}?page=${page}`)
+    fetch(url)
       .then(response => response.json())
-      .then(({ info, results }) => {
-        console.log(results);
-        setCharacters(results);
-        setTotalPages(info.pages);
+      .then((result) => {
+        setLocationData(result);
       })
       .catch((e) => {
         console.error(e);
+        console.log('Url : ', url)
         setHasError(true);
       })
       .finally(() => {
         setIsLoading(false);
       });
-  }, [page])
+  }, [])
 
   return {
     isLoading,
-    characters,
-    totalPages,
+    locationData,
     hasError,
   }
 }
 
-export default useCharacterApi;
+export default useLocation;
