@@ -13,7 +13,6 @@ const useCharacterApi = (page) => {
     fetch(`${API_URL}?page=${page}`)
       .then(response => response.json())
       .then(({ info, results }) => {
-        console.log(results);
         setCharacters(results);
         setTotalPages(info.pages);
       })

@@ -20,7 +20,6 @@ const useLocation = (url) => {
       })
       .catch((e) => {
         console.error(e);
-        console.log('Url : ', url)
         setHasError(true);
       })
       .finally(() => {
