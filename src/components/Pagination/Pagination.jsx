@@ -10,9 +10,15 @@ const Pagination = ({
   const history = useHistory();
 
   return (
-    <div className={styles.container}>
-      {(currentPage !== 1) && <Button variant="contained" style={{ marginRight: '10px' }} onClick={() => history.push(`?page=${currentPage - 1}`)}>Previous</Button>}
-      {(currentPage <= totalPages) && <Button variant="contained" onClick={() => history.push(`?page=${currentPage + 1}`)}>Next</Button>}
+    <div className={styles.container} data-test-id="pagination">
+      {(currentPage !== 1) && 
+        <Button variant="contained" style={{ marginRight: '10px' }} onClick={() => history.push(`?page=${currentPage - 1}`)} data-test-id="pagination-prev">
+          Previous
+        </Button>}
+      {(currentPage < totalPages) && 
+        <Button variant="contained" onClick={() => history.push(`?page=${currentPage + 1}`)} data-test-id="pagination-next">
+          Next
+        </Button>}
     </div>
   );
 }

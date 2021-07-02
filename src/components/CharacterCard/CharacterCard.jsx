@@ -13,7 +13,7 @@ const CharacterCard = ({
 }) => {
   const characterSubtitle = `${character.status} - ${character.species} - ${character.gender}`;
   return (
-    <Card className={'s'}>
+    <Card className={'s'} data-test-id="character-card">
       <CardActionArea>
         <CardMedia
           className={'s'}
@@ -22,7 +22,7 @@ const CharacterCard = ({
           title={character.name}
         />
         <CardContent>
-          <Typography variant="h5" component="h2" noWrap title={character.name}>
+          <Typography variant="h5" component="h2" noWrap title={character.name} data-test-id="character-name">
             {character.name}
           </Typography>
           

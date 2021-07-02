@@ -1,5 +1,5 @@
 import { Typography } from '@material-ui/core';
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import usePage from '../../hooks/usePage';
 import useCharacterApi from '../../hooks/useCharacterApi';
 import CharacterList from '../../components/CharacterList';
@@ -17,8 +17,8 @@ const Home = () => {
         Loading characters ...
       </Typography>}
       {(!isLoading && !hasError) && <CharacterList characters={characters} /> }
-      {(!isLoading && !hasError) &&  <Pagination totalPages={totalPages} currentPage={currentPage} />}
-      {hasError && <Typography variant="h5">
+      {(!isLoading && !hasError) && <Pagination totalPages={totalPages} currentPage={currentPage}/>}
+      {hasError && <Typography variant="h5" data-test-id="list-error">
         Error loading characters. Please refresh the page
       </Typography>}
     </>
