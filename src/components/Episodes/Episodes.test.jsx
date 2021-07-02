@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import fetch from 'jest-fetch-mock';
 
-import Episodes from './Episodes';
+import Episodes from './';
 
 describe('<Episode />', () => {
   beforeEach(() => {

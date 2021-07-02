@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import fetch from 'jest-fetch-mock';
 
-import Location from './Location';
+import Location from './';
 
 const fakeLocation = {
   name: 'Earth',
