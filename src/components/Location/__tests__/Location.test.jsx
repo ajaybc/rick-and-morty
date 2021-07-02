@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import fetch from 'jest-fetch-mock';
 
-import Location from './';
+import Location from '../';
 
 const fakeLocation = {
   name: 'Earth',
@@ -40,7 +40,7 @@ describe('<Location />', () => {
     const consoleErrorSpy = jest.spyOn(console, 'error').mockImplementation(() => { });
     render(<Location location={fakeLocation} />);
     expect(screen.getByText('Earth')).toBeInTheDocument();
-    expect(await screen.findByText('Error loading location')).toBeInTheDocument();
+    expect(await screen.findByText('Error loading dimension')).toBeInTheDocument();
     expect(consoleErrorSpy).toBeCalledWith(fakeFetchError);
     consoleErrorSpy.mockReset();
   });

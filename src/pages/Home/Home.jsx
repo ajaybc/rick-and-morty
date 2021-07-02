@@ -1,5 +1,5 @@
 import { Typography } from '@material-ui/core';
-import { Helmet } from "react-helmet-async";
+import { Helmet } from 'react-helmet-async';
 import usePage from '../../hooks/usePage';
 import useCharacterApi from '../../hooks/useCharacterApi';
 import CharacterList from '../../components/CharacterList';

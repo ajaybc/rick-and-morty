@@ -5,6 +5,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
+import styles from './CharacterCard.module.css';
+
 import Location from '../Location';
 import Episodes from '../Episodes';
 
@@ -13,10 +15,15 @@ const CharacterCard = ({
 }) => {
   const characterSubtitle = `${character.status} - ${character.species} - ${character.gender}`;
   return (
-    <Card className={'s'} data-test-id="character-card">
+    <Card data-test-id="character-card">
       <CardActionArea>
         <CardMedia
-          className={'s'}
+          component={'img'}
+          image={process.env.PUBLIC_URL + '/placehold-thumbnail.svg'}
+          title={character.name}
+        />
+        <CardMedia
+          className={styles.avatar}
           component={'img'}
           image={character.image}
           title={character.name}

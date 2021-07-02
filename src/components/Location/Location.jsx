@@ -37,8 +37,11 @@ const Location = ({
 
       {
         hasError && <>
-          <Typography variant="subtitle1" gutterBottom noWrap data-test-id="character-location-error">
-            Error loading location
+          <Typography variant="subtitle1" gutterBottom noWrap data-test-id="character-destination-error">
+            Error loading dimension
+          </Typography>
+          <Typography variant="subtitle1" gutterBottom noWrap data-test-id="character-destination-error">
+            Error loading residents
           </Typography>
         </>
       }

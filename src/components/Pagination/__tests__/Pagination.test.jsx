@@ -1,8 +1,8 @@
 import { MemoryRouter } from 'react-router';
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import Pagination from './Pagination';
-import usePage from '../../hooks/usePage';
+import Pagination from '../../Pagination';
+import usePage from '../../../hooks/usePage';
 
 const PageSpy = () => {
   const { currentPage } = usePage();

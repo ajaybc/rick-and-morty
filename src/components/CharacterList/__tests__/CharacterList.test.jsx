@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import fetch from 'jest-fetch-mock';
 
-import CharacterCard from './';
+import CharacterCard from '../';
 
 const fakeLocation = {
   name: 'Earth',
@@ -20,7 +20,7 @@ const fakeEpisodesResult = {
   name: 'Fake episode 1',
 }
 
-describe('<CharacterCard />', () => {
+describe('<CharacterList />', () => {
   beforeEach(() => {
     fetch.doMock();
   });
@@ -39,7 +39,7 @@ describe('<CharacterCard />', () => {
       location: fakeLocation,
       episode: fakeEpisodes,
     }
-    
+
     fetch.mockResponse((req) => {
       if (req.url === fakeLocation.url) {
         return Promise.resolve(JSON.stringify(fakeLocationResult));
@@ -47,11 +47,15 @@ describe('<CharacterCard />', () => {
       return Promise.resolve(JSON.stringify(fakeEpisodesResult));
     });
 
-    render(<CharacterCard character={fakeCharacter} />);
-    expect(screen.getByText('Loading dimension ...')).toBeInTheDocument();
-    expect(screen.getByText('Loading episodes ...')).toBeInTheDocument();
+    const { asFragment } = render(<CharacterCard characters={[fakeCharacter]} />);
     expect(await screen.findByText('Replacement Dimension')).toBeInTheDocument();
     expect(await screen.findByText('Fake episode 1')).toBeInTheDocument();
+    expect(asFragment()).toMatchSnapshot();
+  });
+
+  test('renders empty message when no data available', () => {
+    render(<CharacterCard characters={[]} />);
+    expect(screen.getByText('No characters found')).toBeInTheDocument();
   });
 });
 

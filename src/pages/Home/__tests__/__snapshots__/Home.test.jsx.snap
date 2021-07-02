@@ -1,0 +1,856 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CharacterList /> renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        data-test-id="character-card"
+      >
+        <button
+          class="MuiButtonBase-root MuiCardActionArea-root"
+          tabindex="0"
+          type="button"
+        >
+          <img
+            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img"
+            src="/placehold-thumbnail.svg"
+            title="Morty Smith"
+          />
+          <img
+            class="MuiCardMedia-root avatar MuiCardMedia-media MuiCardMedia-img"
+            title="Morty Smith"
+          />
+          <div
+            class="MuiCardContent-root"
+          >
+            <h2
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-noWrap"
+              data-test-id="character-name"
+              title="Morty Smith"
+            >
+              Morty Smith
+            </h2>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="alive - Human - Male"
+            >
+              alive - Human - Male
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Location
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-name"
+            >
+              Earth
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-dimension"
+            >
+              Replacement Dimension
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              data-test-id="character-location-population"
+            >
+              5 resident(s)
+            </h6>
+            <span
+              class="MuiTypography-root MuiTypography-button MuiTypography-gutterBottom MuiTypography-displayBlock"
+            >
+              Episode(s)
+            </span>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-noWrap MuiTypography-gutterBottom"
+              title="Fake episode 1"
+            >
+              Fake episode 1
+            </h6>
+          </div>
+          <span
+            class="MuiCardActionArea-focusHighlight"
+          />
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container"
+    data-test-id="pagination"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+      data-test-id="pagination-prev"
+      style="margin-right: 10px;"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Previous
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-contained"
+      data-test-id="pagination-next"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Next
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</DocumentFragment>
+`;
