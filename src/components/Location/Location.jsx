@@ -34,6 +34,14 @@ const Location = ({
           </Typography>
         </>
       }
+
+      {
+        hasError && <>
+          <Typography variant="subtitle1" gutterBottom noWrap data-test-id="character-location-error">
+            Error loading location
+          </Typography>
+        </>
+      }
     </>
   );
 }
