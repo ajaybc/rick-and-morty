@@ -42,6 +42,7 @@ describe('<Location />', () => {
     expect(screen.getByText('Earth')).toBeInTheDocument();
     expect(await screen.findByText('Error loading location')).toBeInTheDocument();
     expect(consoleErrorSpy).toBeCalledWith(fakeFetchError);
+    consoleErrorSpy.mockReset();
   });
 });
 

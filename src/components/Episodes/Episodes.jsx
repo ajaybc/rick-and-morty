@@ -6,7 +6,12 @@ const Episodes = ({
   episodes
 }) => {
   const { isLoading, episodes: episodeDetailsArr } = useEpisodes(episodes);
-  const episodeNameString = episodeDetailsArr.map((episodeDetails) => episodeDetails.name).join(', ');
+  let episodeNameString;
+  if (episodeDetailsArr.length === 0) {
+    episodeNameString = 'Error fetching episodes';
+  } else {
+    episodeNameString = episodeDetailsArr.map((episodeDetails) => episodeDetails.name).join(', ');
+  }
   return (
     <>
       <Typography variant="button" display="block" gutterBottom>
