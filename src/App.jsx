@@ -7,6 +7,7 @@ import {
 import { Container } from '@material-ui/core';
 import { HelmetProvider } from 'react-helmet-async';
 
+import ErrorBoundary from './components/ErrorBoundary';
 import Topbar from './components/Topbar';
 import Home from './pages/Home';
 
@@ -19,7 +20,9 @@ export default function App() {
           <Container maxWidth="lg" style={{paddingTop: '20px'}}>
             <Switch>
               <Route path="/">
-                <Home />
+                <ErrorBoundary>
+                  <Home />
+                </ErrorBoundary>
               </Route>
             </Switch>
           </Container>
