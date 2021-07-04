@@ -36,7 +36,7 @@ const useLocation = (url) => {
         }
         setIsLoading(false);
       });
-  }, [url])
+  }, [url, isMounted])
 
   return {
     isLoading,

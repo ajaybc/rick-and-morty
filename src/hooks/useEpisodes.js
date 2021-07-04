@@ -30,7 +30,7 @@ const useEpisodes = (chapterUrls) => {
         }
         setIsLoading(false);
       });
-  }, [chapterUrls])
+  }, [chapterUrls, isMounted])
 
   return {
     isLoading,
